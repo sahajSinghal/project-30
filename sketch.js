@@ -96,3 +96,11 @@ function mouseDragged(){
 function mouseReleased(){
     rope.fly();
 }
+
+function keyPressed()
+{
+    if(keyCode === 32)
+    {
+        rope.attach(striker.body);
+    }
+}
